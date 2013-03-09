@@ -7,14 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Game.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        // 1 - Initialize game
+        Game* myGame = [[Game alloc] init];
+        // 2 - Show instructions
+        [myGame instructions];
         
     }
     return 0;
