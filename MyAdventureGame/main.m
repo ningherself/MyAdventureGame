@@ -21,6 +21,7 @@ int main(int argc, const char * argv[])
         
         // 1 - Initialize game
         Game* myGame = [[Game alloc] init];
+        
         int response;
         myGame.health=100;
         // 2 - Set up loop variable
@@ -43,7 +44,8 @@ int main(int argc, const char * argv[])
                 break;
             }        
     }
+        
+}
     return 0;
-    }
 
 }
